@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recycler_View</string>
+    <string name="label_examples">Label_examples</string>
+    <string name="staggered_grid_layout">Staggered_grid_layout</string>
+    <string name="grid_layout_manager">Grid_layout_manager</string>
+    <string name="linear_layout_manager">Linear_layout_manager</string>
+</resources>

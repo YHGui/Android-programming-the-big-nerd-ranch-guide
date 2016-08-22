@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.katsura.firsthelloworld.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#00FF00"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Hello World!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#FF0000"
+        android:text="second TextView"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button"/>
+
+    <CheckBox
+        android:id="@+id/eatId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="吃饭"
+        />
+
+    <CheckBox
+        android:id="@+id/sleepId"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="睡觉"
+        />
+
+    <CheckBox
+        android:id="@+id/dotaId"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="dota"/>
+
+    <CheckBox
+        android:id = "@+id/allCheckId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "All Check"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/femaleButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"/>
+        <RadioButton
+            android:id="@+id/maleButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"/>
+    </RadioGroup>
+    <ImageView
+        android:id="@+id/imageView1Id"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/work"
+        android:background="#FF0000"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2Id"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/love"
+        android:background="#00FF00"
+        android:scaleType="center"
+        />
+</LinearLayout>
